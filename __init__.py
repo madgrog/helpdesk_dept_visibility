@@ -6,9 +6,6 @@ def _restore_helpdesk(env):
     """
         This method restores original Enterprise Helpdesk
     """
-    # wid = env['ir.ui.menu'].search([('web_icon', '=', 'pec_manager,static/description/menu_icon.png')])
-    # for record in wid:
-    #     record.write({'web_icon': 'helpdesk,static/description/icon.png'})
     env.cr.execute("""UPDATE ir_rule SET domain_force = '[''|'',
                                             (''privacy_visibility'', ''!='', ''invited_internal''),
                                             (''message_partner_ids'', ''in'', [user.partner_id.id])
