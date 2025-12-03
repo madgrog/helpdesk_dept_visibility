@@ -1,5 +1,5 @@
 ======================================================
-Helpdesk Department Visinbility - ODOO Helpdesk Add-on
+Helpdesk Department Visibility - ODOO Helpdesk Add-on
 ======================================================
 
 **Italiano**
