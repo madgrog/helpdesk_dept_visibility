@@ -1,0 +1,32 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* helpdesk_dept_visibility
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-12-03 20:52+0000\n"
+"PO-Revision-Date: 2025-12-03 20:52+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: helpdesk_dept_visibility
+#: model:ir.model.fields,field_description:helpdesk_dept_visibility.field_helpdesk_team__department_id
+#: model_terms:ir.ui.view,arch_db:helpdesk_dept_visibility.helpdesk_team_view_form_extended
+msgid "Department"
+msgstr ""
+
+#. module: helpdesk_dept_visibility
+#: model:ir.model,name:helpdesk_dept_visibility.model_helpdesk_team
+msgid "Helpdesk Team"
+msgstr "Gruppo Helpdesk"
+
+#. module: helpdesk_dept_visibility
+#: model:ir.model.fields,help:helpdesk_dept_visibility.field_helpdesk_team__department_id
+msgid "The Department of the Team."
+msgstr ""
