@@ -14,7 +14,7 @@
                                         '|',
                                             ('privacy_visibility', '!=', 'invited_internal'),
                                             ('message_partner_ids', 'in', [user.partner_id.id]),
-                                        ('department_id', 'in', [user.employee_id.department_id.id])
+                                        ('department_id.id', 'in', [user.employee_id.department_id.id])
                                     ]</field>
         <field name="groups" eval="[(4, ref('helpdesk.group_helpdesk_user'))]"/>
     </record>
@@ -40,7 +40,7 @@
                                         ('team_id.privacy_visibility', '!=', 'invited_internal'),
                                         ('team_id.message_partner_ids', 'in', [user.partner_id.id]),
                                         ('message_partner_ids', 'in', [user.partner_id.id]),
-                                        ('team_id.department_id', 'in', [user.employee_id.department_id.id])
+                                        ('team_id.department_id.id', 'in', [user.employee_id.department_id.id])
                                     ]</field>
         <field name="groups" eval="[(4, ref('base.group_user'))]"/>
     </record>
